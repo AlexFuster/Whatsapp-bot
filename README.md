@@ -3,7 +3,7 @@ I use python with selenium to create a bot with access to whatsapp web. It can r
 The good thing about this one is that it cannot be easily detected by Whatsapp. Most of bots are made by reverse engineering the requests made by the whatsapp application. This produces bots that are very easy to use, but at the cost of receaving a ban after an update made by Whatsapp.  
 By using, selenium, one can have a reliable whatsapp bot for personal use. This bot just interacts with the Whatsapp web interface (like a human does), so the requests are built by the frontend itself, not by the bot. This makes the bot very stable and difficult to ban.
 
-Getting started:
+Tutorial:
 1. Download chromedriver from https://chromedriver.chromium.org/downloads
 2. Write the path of the downloaded driver in a file called driver_location.txt and put that file into the same location as whatsbot2.py
 3. Make an excel file called rules.xlsx following the format specified below and save it to the same location as whatsbot2.py 
